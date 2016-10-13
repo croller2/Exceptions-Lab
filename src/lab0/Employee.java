@@ -113,6 +113,12 @@ public class Employee {
         }else{
             this.ssn = ssn;
         }
+    
+        
+    }
+    
+    public final String fullNameInCaps(){
+       return this.lastName.toUpperCase() + " " + this.firstName.toUpperCase();
     }
     
     
